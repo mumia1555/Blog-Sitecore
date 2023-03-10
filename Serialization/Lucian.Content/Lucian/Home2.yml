@@ -1,0 +1,79 @@
+﻿---
+ID: "cd15d858-00c9-4abf-8ee9-5d0ce87f0f2c"
+Parent: "2a809d1c-f76a-4fa6-9947-a77fe24cfe42"
+Template: "b440ce3b-11d7-499d-9a94-d3ddf5a671b7"
+Path: /sitecore/content/Lucian/Home2
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{7265EAE6-0209-4993-9324-F854F2789BFB}"
+          p:before="*"
+          s:id="{F0A837D4-7A73-47F5-B7EB-21306921023A}"
+          s:ph="phMain" />
+        <r
+          uid="{F0854BC9-578C-4FD8-9DC2-C2D91B13F02E}"
+          p:after="r[@uid='{701B0549-FDED-47F1-98A7-0D2D6A11AB25}']"
+          s:id="{CF2484C6-68B0-487D-B25A-60A84D4CCCBF}"
+          s:ph="phMain" />
+        <r
+          uid="{0061256F-D617-468E-9A5B-18D48AFC3313}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{9ABEA812-3DFD-4D08-AD53-6CDA87885077}"
+          s:par=""
+          s:ph="phMain"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230228T130634Z
+    - ID: "4c841aef-8e71-4852-9c93-e158a31fa271"
+      Hint: BlogId
+      Value: "{CD15D858-00C9-4ABF-8EE9-5D0CE87F0F2C}"
+    - ID: "6e721bcd-80c8-49c9-bee2-78cd84d0f1a6"
+      Hint: Title
+      Value: Home
+    - ID: "6ee845dc-70f3-408f-8382-5776893f40f3"
+      Hint: Description
+      Value: |
+        <p><a href="-/media/941DBE9E099D4307A15FF81CD4552EDC.ashx">Test Goal</a>This is description for <em><strong>Home</strong></em> article</p>
+        <p>&nbsp;</p>
+        <p>Click <a href="-/media/941DBE9E099D4307A15FF81CD4552EDC.ashx">Here </a>to download the article</p>
+    - ID: "b0caad4d-3359-4097-8bab-5fce448775b1"
+      Hint: PostedDate
+      Value: 20230228T130634Z
+- Language: "es-MX"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230228T102824Z
+    - ID: "4c841aef-8e71-4852-9c93-e158a31fa271"
+      Hint: BlogId
+      Value: 34
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6e721bcd-80c8-49c9-bee2-78cd84d0f1a6"
+      Hint: Title
+      Value: Home page for Lucian WebSite
+    - ID: "bf3d2f16-0b4c-4e6b-952c-9d6153e41b86"
+      Hint: BlogImage
+      Value: |
+        <image mediaid="{65CE0D62-8147-4246-9C5A-B58EEABA569A}" />

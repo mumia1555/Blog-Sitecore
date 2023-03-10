@@ -1,0 +1,41 @@
+﻿---
+ID: "e7e182ac-1429-4b15-889c-72dcb2f88ddf"
+Parent: "f5111344-e172-473a-bd94-ffd712b71db4"
+Template: "ff58507e-cc09-4dbb-b4cb-d65f83906619"
+Path: /sitecore/content/Lucian/WebsiteSettings/Setting
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/gear.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230308T083121Z
+    - ID: "29a4300b-e866-4683-9832-719079ffbb70"
+      Hint: CopyRight
+      Value: CopyRight @ 2022
+    - ID: "578584f1-eca7-414d-9a2f-07447a577598"
+      Hint: HeaderTitle
+      Value: Sitecore Powered Blog
+    - ID: "57f18594-9619-4b00-a5c9-7bba3680f2a1"
+      Hint: HeaderText
+      Value: |
+        <a href="~/link.aspx?_id=E7E182AC14294B15889C72DCB2F88DDF&amp;_z=z">Sitecore</a> promises to be the way of the future.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c35ba817-022f-4b79-848d-5d46adb2e806"
+      Hint: ArticleList
+      Type: Multilist
+      Value: |
+        {4BD453D7-9D81-47BA-9DA9-37C8F020CBFD}
+        {A0534AC0-AE87-4726-AA0F-35A2F568BA19}
+        {1B2AD3D9-9A5E-49B5-A5C0-9A17619AAB89}
+        {E2364163-44BA-4F06-A985-F40F397B0FE3}
+        {564EA00C-C622-43D7-B5FE-5F679E5D480D}

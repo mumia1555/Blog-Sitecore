@@ -1,0 +1,103 @@
+﻿---
+ID: "98d69d12-dc9d-42be-bb58-508097ef8bbc"
+Parent: "2a809d1c-f76a-4fa6-9947-a77fe24cfe42"
+Template: "5cd2289a-3991-4e83-b9ac-21819ab3615a"
+Path: /sitecore/content/Lucian/Home
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{563AC8C4-0700-4AFE-9EEA-EC624B39C525}">
+        <r
+          id="{23B9C755-D7FE-4E53-B00B-2220865F1FAF}"
+          ph="phMain"
+          uid="{12319955-10D6-4D45-B6D5-238B842342E2}" />
+        <r
+          id="{0C6B8A13-0BEB-47FC-9E22-A0D80C1461AF}"
+          ph="phMain"
+          uid="{4F397B72-1CFF-4819-A300-5736008070BF}" />
+        <r
+          ds=""
+          id="{EC6B57F8-7E05-46EA-9002-E6FF9EE6FA9F}"
+          par=""
+          ph="phMain"
+          uid="{4724CEF9-9E25-49E9-9B83-3784262D9371}"
+          ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{12319955-10D6-4D45-B6D5-238B842342E2}"
+              s:pt="{91F3275F-4C6D-4C05-A8A2-0E129B2A917F}"
+              s:uid="{12319955-10D6-4D45-B6D5-238B842342E2}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{B3A54D3A-6393-46B7-A7DE-58B5D3C33A2B}"
+                    s:name="Rule1"
+                    s:test="true">
+                    <actions>
+                      <action
+                        uid="3002011AB29448BD8112B8476D19F9A0"
+                        s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}"
+                        s:RenderingItem="{23B9C755-D7FE-4E53-B00B-2220865F1FAF}" />
+                      <action
+                        uid="D4D029E5C1C0458B9208C5AC129D54F7"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                    <conditions>
+                      <condition
+                        uid="2173EB6823A9481AA49E6115B7586F02"
+                        s:id="{C18B0900-ED61-47A8-AEF0-AD6D133512C8}"
+                        s:DaysList="{D1172755-83B7-426B-9BA3-F1C5D2CB6EED}|{61FE0E28-8723-4895-AF39-E8B977513AD9}" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="79743B28B2AB42C9A949770B6CC25CDF"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "1de7282a-0c58-449b-9a20-e3bf4af34ce5"
+      Hint: Title
+      Value: Home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230308T074047Z
+    - ID: "724ff43a-4fd8-4fc7-b42e-1ae96338f104"
+      Hint: ShortDescription
+      Value: This is the short description for <strong>Home</strong> article
+    - ID: "9bfbf72d-1cca-4c55-b607-9c7d22288cca"
+      Hint: Date
+      Value: 20230308T074047Z
+    - ID: "aac1e110-37fa-41a8-836f-2d41e2cc0fbf"
+      Hint: LongDescription
+      Value: This is the long description for&nbsp;<strong>Home</strong>&nbsp;article

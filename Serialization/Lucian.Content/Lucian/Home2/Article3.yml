@@ -1,0 +1,45 @@
+﻿---
+ID: "1a643c1c-c77b-4c68-8db7-9f1b58e48f8e"
+Parent: "cd15d858-00c9-4abf-8ee9-5d0ce87f0f2c"
+Template: "b440ce3b-11d7-499d-9a94-d3ddf5a671b7"
+Path: /sitecore/content/Lucian/Home2/Article3
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{7FFB7416-AA3C-4864-9E59-E629D9EF8D1D}"
+          p:after="*[1=2]"
+          s:id="{F0A837D4-7A73-47F5-B7EB-21306921023A}"
+          s:ph="phMain" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230302T085453Z
+    - ID: "4c841aef-8e71-4852-9c93-e158a31fa271"
+      Hint: BlogId
+      Value: "{1A643C1C-C77B-4C68-8DB7-9F1B58E48F8E}"
+    - ID: "6e721bcd-80c8-49c9-bee2-78cd84d0f1a6"
+      Hint: Title
+      Value: Article3
+    - ID: "6ee845dc-70f3-408f-8382-5776893f40f3"
+      Hint: Description
+      Value: |
+        <p>This is description for <em><strong>Article3</strong></em> article</p>
+        <p>&nbsp;</p>
+        <p>Click <a href="-/media/941DBE9E099D4307A15FF81CD4552EDC.ashx">Here</a></p>
+    - ID: "b0caad4d-3359-4097-8bab-5fce448775b1"
+      Hint: PostedDate
+      Value: 20230302T085453Z

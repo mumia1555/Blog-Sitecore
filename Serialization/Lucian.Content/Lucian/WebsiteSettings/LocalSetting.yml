@@ -1,0 +1,44 @@
+﻿---
+ID: "6152f781-74d9-4056-b358-3edb071b4bcd"
+Parent: "f5111344-e172-473a-bd94-ffd712b71db4"
+Template: "96900c16-01c2-4c9d-89fe-a18fec198144"
+Path: /sitecore/content/Lucian/WebsiteSettings/LocalSetting
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/gear.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "10304b05-5316-4ee9-96e6-3907e77516a1"
+      Hint: MyMultilistField
+      Type: Multilist
+      Value: |
+        {1A643C1C-C77B-4C68-8DB7-9F1B58E48F8E}
+        {24B84852-ECE1-49A7-915F-14AD9CAF3E9A}
+    - ID: "1050f22f-a964-4859-b7b8-c7db049eef22"
+      Hint: CopyRight
+      Value: CopyRight @ 2022
+    - ID: "128b1c7d-24ea-4ece-9e04-5acfd1289cdf"
+      Hint: MyDropList
+      Value: Article3
+    - ID: "21fb1993-b052-4759-be13-94d6767b0cb6"
+      Hint: Logo
+      Value: |
+        <image mediaid="{65CE0D62-8147-4246-9C5A-B58EEABA569A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230302T091608Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "89a11934-d384-45e1-8586-89ef555626e4"
+      Hint: MyDropLink
+      Value: "{24B84852-ECE1-49A7-915F-14AD9CAF3E9A}"
+    - ID: "e266a277-df56-4c9b-92c5-80372d826142"
+      Hint: WebsiteHeading
+      Value: <h1>Welcome to <strong>Lucian </strong>WebSite&nbsp;</h1>

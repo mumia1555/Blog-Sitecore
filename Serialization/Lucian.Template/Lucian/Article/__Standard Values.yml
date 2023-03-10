@@ -1,0 +1,53 @@
+﻿---
+ID: "c441bfc0-bbfc-43e1-9ab9-e29d2a98cff2"
+Parent: "b440ce3b-11d7-499d-9a94-d3ddf5a671b7"
+Template: "b440ce3b-11d7-499d-9a94-d3ddf5a671b7"
+Path: /sitecore/templates/Lucian/Article/__Standard Values
+DB: master
+SharedFields:
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 1
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{40425C85-491E-45E4-B6B0-A59F507E73ED}">
+        <r
+          id="{66C523D7-7564-4213-9F7C-9F7BE2E397BF}"
+          ph="phMain"
+          uid="{CED3CA58-FBF4-4C7B-B49D-08FE779AE7DB}" />
+        <r
+          id="{45CFDC27-73FA-49F3-ADB9-DB3674EF1453}"
+          ph="phMain"
+          uid="{701B0549-FDED-47F1-98A7-0D2D6A11AB25}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230227T131204Z
+    - ID: "4c841aef-8e71-4852-9c93-e158a31fa271"
+      Hint: BlogId
+      Value: $id
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6e721bcd-80c8-49c9-bee2-78cd84d0f1a6"
+      Hint: Title
+      Value: $name
+    - ID: "6ee845dc-70f3-408f-8382-5776893f40f3"
+      Hint: Description
+      Value: This is description for <em><strong>$name</strong></em> article
+    - ID: "b0caad4d-3359-4097-8bab-5fce448775b1"
+      Hint: PostedDate
+      Value: $now

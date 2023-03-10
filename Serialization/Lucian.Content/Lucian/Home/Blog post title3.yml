@@ -1,0 +1,36 @@
+﻿---
+ID: "1b2ad3d9-9a5e-49b5-a5c0-9a17619aab89"
+Parent: "98d69d12-dc9d-42be-bb58-508097ef8bbc"
+Template: "5cd2289a-3991-4e83-b9ac-21819ab3615a"
+Path: /sitecore/content/Lucian/Home/Blog post title3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1de7282a-0c58-449b-9a20-e3bf4af34ce5"
+      Hint: Title
+      Value: Blog post title3
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230308T075822Z
+    - ID: "724ff43a-4fd8-4fc7-b42e-1ae96338f104"
+      Hint: ShortDescription
+      Value: This is the short description for <strong>Blog post title3</strong> article
+    - ID: "8edc71b8-51ec-4804-a9cf-ab4fbfecc7a0"
+      Hint: BlogId
+      Value: "{1B2AD3D9-9A5E-49B5-A5C0-9A17619AAB89}"
+    - ID: "9bfbf72d-1cca-4c55-b607-9c7d22288cca"
+      Hint: Date
+      Value: 20230308T075822Z
+    - ID: "aac1e110-37fa-41a8-836f-2d41e2cc0fbf"
+      Hint: LongDescription
+      Value: This is the long description for&nbsp;<strong>Blog post title3</strong>&nbsp;article
+    - ID: "b5612def-a91b-49ae-8ef2-6dc44e628b16"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA928012-B940-482C-BB23-F8D09E3ECDB2}" />
+    - ID: "cfff3f79-a5f7-44f8-8781-eb31d93fe142"
+      Hint: Type
+      Value: Design
